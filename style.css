@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #2DD4BF;
+    background-color: rgb(255, 119, 187);
 }
 
 header {
@@ -35,7 +35,7 @@ main {
 }
 
 div#welcome {
-    background-color: rgb(255, 119, 187);
+    background-color: #F87171;
     filter: drop-shadow(7px 7px 0 rgb(0 0 0 / 1));
     border: 3px solid black;
     border-radius: 5px;
@@ -46,7 +46,7 @@ div#welcome {
 
 section#posts {
     text-align: center;
-    background-color: #F87171;
+    background-color: #2DD4BF;
     filter: drop-shadow(7px 7px 0 rgb(0 0 0 / 1));
     border: 3px solid black;
     border-radius: 5px;
