@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+header {
+    border-bottom: 4px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family:'Righteous', cursive;
+    font-size: 3em;
+    font-weight: 100;
+    display: inline-block;
+    padding: 18px 0px 18px 18px;
+}
+
+p#blog {
+    display: inline-block;
+}
+
+a {
+    display: block;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+article {
+    max-width: 600px;
+    margin: auto;
+}
