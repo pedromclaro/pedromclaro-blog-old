@@ -26,12 +26,12 @@ h1 {
     padding: 18px 0px 18px 18px;
 }
 
-p {
+p#blog {
     display: inline-block;
 }
 
 main {
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 div#welcome {
@@ -70,4 +70,16 @@ div.card {
 
 .buttonpost:hover {
     background-color: hotpink;
+}
+
+
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 75px;
+    padding: 10px;
+
 }
