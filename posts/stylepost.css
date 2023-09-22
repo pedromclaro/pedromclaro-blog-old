@@ -14,7 +14,7 @@ h1#title {
     font-size: 3em;
     font-weight: 100;
     display: inline-block;
-    padding: 18px 0px 18px 18px;
+    padding: 18px 0px 18px 0px;
 }
 
 p#blog {
@@ -24,7 +24,7 @@ p#blog {
 a.voltar {
     text-decoration: underline;
     color: black;
-    margin: 25px auto 20px auto;
+    margin: 25px auto 25px auto;
 }
 
 a {
@@ -33,8 +33,6 @@ a {
 
 p.details {
     color: #A2A4BC;
-    margin-bottom: 30px;
-    padding-top: 20px;
 }
 
 p.lead {
@@ -47,16 +45,59 @@ main {
     max-width: 1000px;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+a.navtags {
+    background-color: rgba(137, 43, 226, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    margin: auto;
+    margin-right: 10px;
+}
+
+div {
+    margin: auto;
+    padding: 10px 0px 25px 0px;
+
+}
+
 article {
     max-width: 600px;
     margin: auto;
     padding: 20px;
 }
 
+ul {
+    padding: 15px;
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+}
+
+li > a {
+    background-color: #d1d1d1;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    margin: auto;
+    margin-right: 10px;
+}
+
+li#by {
+    display: block;
+}
+
 footer {
     background-color: black;
     text-align: center;
     color: white;
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 10px;
 }
