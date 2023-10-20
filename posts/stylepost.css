@@ -17,6 +17,10 @@ h1#title {
     padding: 18px 0px 18px 0px;
 }
 
+h3 {
+    font-size: 1.5em;
+}
+
 p#blog {
     display: inline-block;
 }
