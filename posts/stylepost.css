@@ -31,7 +31,12 @@ a.voltar {
     margin: 25px auto 25px auto;
 }
 
-a {
+a.notas-mencoes {
+    font-size: 10px;
+    background-color: rgba(0, 77, 150, 0.726);
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    color: white;
     text-decoration: none;
 }
 
@@ -41,6 +46,7 @@ p.details {
 
 p.lead {
     font-size: 1.2em;
+    text-indent: 1em;
 }
 
 
@@ -61,6 +67,7 @@ a.navtags {
     color: black;
     margin: auto;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 div {
@@ -75,27 +82,44 @@ article {
     padding: 20px;
 }
 
-ul {
+ul.about {
     padding: 15px;
     list-style-type: none;
 
 }
 
-li {
+.about > li {
     display: inline-block;
 }
 
-li > a {
+.about > li > a {
     background-color: #d1d1d1;
     padding: 5px;
     border-radius: 5px;
     color: black;
     margin: auto;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 li#by {
     display: block;
+}
+
+aside {
+    margin: auto;
+    max-width: 1000px;
+}
+
+#notas {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    color: #6e6e6e;
+}
+
+#notas > p {
+    font-size: 0.9em;
 }
 
 footer {
