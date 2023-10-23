@@ -34,6 +34,34 @@ main {
     padding: 20px 20px 0px 20px;
 }
 
+section#contato {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#contato > a {
+    font-weight: 800;
+    margin: 10px;
+    text-decoration: none;
+    color: #2dd4a2;
+    background-color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid black;
+    filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+
+}
+
+#contato > a:hover {
+    background-color: #F87171;
+    transition: 0.5s;
+    animation-duration: 0.5s;
+    color: white;
+}
+
 div#welcome {
     background-color: #F87171;
     filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));

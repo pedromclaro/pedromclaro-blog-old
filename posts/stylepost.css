@@ -32,12 +32,9 @@ a.voltar {
 }
 
 a.notas-mencoes {
-    font-size: 10px;
-    background-color: rgba(0, 77, 150, 0.726);
-    padding: 2px 5px 2px 5px;
-    border-radius: 5px;
-    color: white;
     text-decoration: none;
+    color: rgba(0, 77, 150, 0.726);
+    font-weight: 500;
 }
 
 p.details {
@@ -68,6 +65,11 @@ a.navtags {
     margin: auto;
     margin-right: 10px;
     text-decoration: none;
+}
+
+sup {
+    color: rgba(0, 77, 150, 0.726);
+    font-weight: 500;
 }
 
 div {
