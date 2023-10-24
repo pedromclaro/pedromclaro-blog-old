@@ -43,12 +43,12 @@ section#contato {
 
 #contato > a {
     font-weight: 800;
-    margin: 10px;
+    margin: 5px;
     text-decoration: none;
     color: #2dd4a2;
     background-color: white;
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1.15em;
     border: 1px solid black;
     border-radius: 0px;
     filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
@@ -117,5 +117,4 @@ footer {
     color: white;
     padding: 10px;
     margin-top: 18px;
-    font-size: 13px;
 }
