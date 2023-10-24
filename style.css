@@ -38,7 +38,7 @@ section#contato {
     margin: auto;
     max-width: 400px;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
 }
 
 #contato > a {
@@ -47,10 +47,10 @@ section#contato {
     text-decoration: none;
     color: #2dd4a2;
     background-color: white;
-    padding: 10px;
-    font-size: 1.15em;
+    padding: 7px;
+    font-size: 1em;
     border: 1px solid black;
-    border-radius: 0px;
+    border-radius: 5px;
     filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
 
 }
@@ -115,6 +115,6 @@ footer {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 20px;
     margin-top: 18px;
 }
