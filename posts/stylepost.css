@@ -84,6 +84,10 @@ article {
     padding: 20px;
 }
 
+#paragrafo1 {
+    margin-top: 15px;
+}
+
 ul.about {
     padding: 15px;
     list-style-type: none;
