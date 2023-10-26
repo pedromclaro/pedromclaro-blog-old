@@ -58,9 +58,9 @@ h1 {
 }
 
 a.navtags {
-    background-color: rgba(137, 43, 226, 0.5);
-    padding: 5px;
-    border-radius: 5px;
+    background-color: rgb(137 43 226 / 37%);
+    padding: 7px;
+    border-radius: 15px;
     color: black;
     margin: auto;
     margin-right: 10px;
