@@ -45,7 +45,7 @@ section#contato {
     font-weight: 800;
     margin: 8px;
     text-decoration: none;
-    color: #2dd4a2;
+    color: #2DD4BF;
     background-color: white;
     padding: 8px;
     font-size: 1.1em;
@@ -56,7 +56,7 @@ section#contato {
 }
 
 #contato > a:hover {
-    background-color: #F87171;
+    background-color: #2DD4BF;
     transition: 0.5s;
     animation-duration: 0.5s;
     color: white;
@@ -92,6 +92,21 @@ div.card {
     text-align: left;
 }
 
+.button-welcome {
+    background-color: white;
+    border-radius: 0px;
+    border: 2px solid black;
+    filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+    color: black;
+    padding: 5px 35px;
+    transition: 0.5s;
+    animation-duration: 0.5s;
+}
+
+.button-welcome:hover {
+    background-color: yellow;
+}
+
 .buttonpost {
     background-color: white;
     border-radius: 0px;
@@ -104,7 +119,7 @@ div.card {
 }
 
 .buttonpost:hover {
-    background-color: hotpink;
+    background-color: greenyellow;
 }
 
 
